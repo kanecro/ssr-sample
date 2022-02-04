@@ -1,6 +1,3 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
 function Page({ stars }) {
   return <div>Next stars: {stars}</div>
 }

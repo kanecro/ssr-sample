@@ -18,6 +18,11 @@ export default function Home() {
           <a>SSR and CSRページへ遷移</a>
         </Link>
         </h1>
+        <h1 className={styles.title}>
+        <Link href="/ssr_only">
+          <a>SSR only</a>
+        </Link>
+        </h1>
       </main>
     </div>
   )
